@@ -1,0 +1,1612 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Avenir-Next,Roboto,sans-serif;
+
+}
+
+
+
+
+
+/*_______NAVIGATION SECTION________*/
+
+
+
+
+
+li, a, button{
+
+    font-size: 16px;
+
+    font-family: Avenir-Next,Roboto,sans-serif;
+
+    font-weight: 500;
+
+    color: #424242;
+
+    text-decoration: none;
+
+
+
+}
+
+
+
+header{
+
+    display: flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding: 10px 1%;
+
+}
+
+
+
+.ind{
+
+    height: 18px;
+
+}
+
+
+
+.logo{
+
+    height: 45px;
+
+    cursor: pointer;
+
+    padding-left: 0px;
+
+}
+
+
+
+.nav__links{
+
+    list-style: none;
+
+}
+
+
+
+.nav__links li{
+
+    display: inline-block;
+
+    padding: 0px 20px;
+
+}
+
+
+
+.nav__links li a{
+
+    transition: all 0.3s ease 0s;
+
+}
+
+
+
+.nav__links li a:hover{
+
+    color: rgba(255, 113, 61, 0.959);
+
+}
+
+
+
+.aply1{
+
+    padding: 9px 25px;
+
+    background-color: rgba(255, 113, 61, 0.959);
+
+    border: none;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease 0s;
+
+    color: aliceblue;
+
+    width: 130px;
+
+}
+
+
+
+.aply1:hover{
+
+    background-color:brown;
+
+}
+
+
+
+
+
+/*_______LANDING AREA________*/
+
+
+
+
+
+.land{
+
+    background: rgba(0,0,0,0.7)url(assets/back.jpg);
+
+    background-blend-mode: darken;
+
+    background-position:center;
+
+    background-size:fill;
+
+    background-repeat: no-repeat;
+
+    width: 100%;
+
+
+
+}
+
+
+
+h1{
+
+    font-size: 90px;
+
+    color: whitesmoke;
+
+    padding-top: 5%;
+
+    padding-bottom: 0.2%;
+
+    padding-left: 8%;
+
+
+
+}
+
+
+
+h3{
+
+    font-size: 33px;
+
+    color: whitesmoke;
+
+    padding-top: 0.5%;
+
+    padding-bottom:5px;
+
+    padding-left: 8%;
+
+}
+
+
+
+.land li{
+
+    list-style: none;
+
+    padding-left: 8%;
+
+    padding-top: 1.5%;
+
+}
+
+
+
+.aplhere{
+
+    background-color:#4992ca;
+
+    border: none;
+
+    cursor: pointer;
+
+    padding: 12px 25px;
+
+    color: aliceblue;
+
+    width:220px;
+
+}
+
+
+
+.aplhere:hover{
+
+    background-color:rgba(107, 224, 224, 0.534) ;
+
+}
+
+
+
+.reghere{
+
+    background-color: transparent;
+
+    border: 2px white solid;
+
+    padding: 15px 25px;
+
+    cursor: pointer;
+
+    color: aliceblue;
+
+    width: 220px;
+
+}
+
+
+
+.reghere:hover{
+
+    background-color: rgba(107, 224, 224, 0.534);
+
+}
+
+
+
+.learnhere{
+
+    background-color: aliceblue;
+
+    border: none;
+
+    cursor: pointer;
+
+    padding: 20px 25px;
+
+    color: black;
+
+    border-radius: 15px;
+
+}
+
+
+
+.learnhere:hover{
+
+    background-color: rgba(107, 224, 224, 0.534);
+
+}
+
+
+
+.butt{
+
+    padding-bottom: 9%;
+
+    padding-top: 5px;
+
+}
+
+
+
+
+
+/*__________POCKET MONSTER__________*/
+
+
+
+
+
+.pocket{
+
+    background-color:#4992ca;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0% 10%;
+
+}
+
+
+
+h2{
+
+    color: aliceblue;
+
+    font-size: 45px;
+
+    text-align: center;
+
+    padding: 3% 0%;
+
+}
+
+
+
+.pocket p{
+
+    color: aliceblue;
+
+    text-align: center;
+
+    font-size: 18px;
+
+}
+
+h4{
+
+    color: aliceblue;
+
+    font-size: 30px;
+
+}
+
+.col{
+
+    display: flex;
+
+    flex: wrap;
+
+    text-align: center;
+
+    padding: 4% 8%;
+
+}
+
+
+
+.col p{
+
+    font-size: 16px;
+
+    word-spacing: 6px;
+
+}
+
+.water, .fire, .grass{
+
+    padding: 0% 3%;
+
+}
+
+
+
+
+
+/*___________STATISTICS SECTION___________*/
+
+
+
+
+
+.stats{
+
+    background-color: aliceblue;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding-top: 5% ;
+
+    padding-left: 15%;
+
+    padding-right: 15%;
+
+}
+
+
+
+.stats h2{
+
+    color:black;
+
+    font-size: 45px;
+
+    text-align: center;
+
+    padding-bottom: 0px;
+
+}
+
+
+
+.stats h4{
+
+    color: black;
+
+    font-size: 30px;
+
+    padding-bottom: 10%;
+
+}
+
+
+
+.col2{
+
+    display: flex;
+
+    flex: wrap;
+
+    text-align: center;
+
+    padding-left: 4% ;
+
+    padding-right: 8%;
+
+    padding-bottom: 40px;
+
+}
+
+
+
+.wght{
+
+    padding-left: 5% ;
+
+    padding-right: 5%;
+
+    padding-bottom: 0px;
+
+}
+
+
+
+.appdown{
+
+    padding-left: 5% ;
+
+    padding-right: 5%;
+
+    padding-bottom: 0px;
+
+}
+
+
+
+.col2 p{
+
+    text-align: center;
+
+    font-size: 17px;
+
+}
+
+
+
+.col2 img{
+
+    padding: 8% 0% 0% 0%;
+
+}
+
+
+
+
+
+/*__________POKEMON OF THE YEAR___________*/
+
+
+
+.pokemonyear{
+
+    color:black;
+
+    font-size: 45px;
+
+    text-align: center;
+
+    padding-top: 0;
+
+}
+
+
+
+.pokeyear{
+
+    padding: 0% 7% 7% 0%;
+
+}
+
+
+
+h6{
+
+    color: #424242;
+
+    font-size: 18px;
+
+    font-weight: 100;
+
+}
+
+
+
+.greninja h4{
+
+    color: #424242;
+
+    font-size: 30px;
+
+    padding: 0%;
+
+    font-weight: 100;
+
+}
+
+.greninjaimg{
+
+    height: 180px;
+
+    width: 180px;
+
+    border-radius: 150px;
+
+}
+
+
+
+.pokemonlogo{
+
+    height: 50px
+
+}
+
+
+
+.greninja{
+
+    display: flex;
+
+    flex: wrap;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0px 20px 20px 0px;
+
+}
+
+
+
+.pokeimg{
+
+    padding: 0% 4% 0% 0%;
+
+}
+
+
+
+.pokeinfo{
+
+    padding: 0% 4% 0% 0%;
+
+    text-align: center;
+
+}
+
+
+
+.pokedetail{
+
+    text-align: center;
+
+    color: #424242;
+
+}
+
+
+
+
+
+/*___________Q & A___________*/
+
+
+
+
+
+.qa{
+
+    background-color: #4992ca;
+
+    padding-top: 0%;
+
+    padding-right:8% ;
+
+    padding-left:8% ;
+
+    padding-bottom:3% ;
+
+}
+
+
+
+.qa h2{
+
+    color:aliceblue;
+
+    font-size: 45px;
+
+} 
+
+
+
+.qa h6{
+
+    font-size: 20px;
+
+    color: aliceblue;
+
+    font-weight: 549;
+
+    padding-top: 20px;
+
+    padding-bottom:3px ;
+
+}
+
+
+
+.answer{
+
+    padding-left: 7%;
+
+}
+
+
+
+.answer li{
+
+    color: aliceblue;
+
+    word-spacing: 4px;
+
+    line-height: 27px;
+
+}
+
+
+
+/*________Pokemon Battle_________*/
+
+
+
+table {
+
+    border: 1px solid #8a8a8a;
+
+    border-collapse: collapse;
+
+    width: 650px;
+
+}
+
+
+
+td,tr{
+
+     color: #8a8a8a;
+
+    border: 1px solid #8a8a8a;
+
+}
+
+td{
+
+      padding: 15px;
+
+}
+
+
+
+th{
+
+      border: 1px solid #8a8a8a;
+
+      padding: 15px;
+
+}
+
+
+
+.battle{
+
+    background-color: aliceblue;
+
+    padding-left:10%;
+
+    padding-right:10%; 
+
+}
+
+
+
+.battle h2{
+
+    color: black;
+
+    padding-bottom: 1%;
+
+}
+
+
+
+.battle h6{
+
+    text-align: center;
+
+    color:black;
+
+}
+
+
+
+.battle h7{
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    padding-top: 10px;
+
+    margin-right: 10%;
+
+}
+
+.battle p{
+
+    padding-top: 40px;
+
+    color:#8a8a8a;
+
+    text-decoration: none;
+
+    line-height: 35px;
+
+    font-weight: 500;
+
+}
+
+
+
+.col3{
+
+    display: flex;
+
+    flex: wrap;
+
+    padding-left: 15%;
+
+    padding-right: 15%;
+
+    padding-top: 15px;
+
+}
+
+
+
+.battle__para{
+
+    text-align: left;
+
+    padding-top: 2px;
+
+    width: 400px;
+
+    margin-left: 0px ;
+
+    justify-content: space-around;
+
+}
+
+
+
+.battle__tbl{
+
+    margin-right: 0%;
+
+    padding-right: 0%;
+
+    padding-left:0px;
+
+    padding-top: 10px;
+
+    align-items: center;
+
+    width: 400px;
+
+}
+
+
+
+.battle__tbl p{
+
+    text-align: left;
+
+    padding-right:10% ;
+
+    padding-left: 0%;
+
+    padding-top: 10px;
+
+    width: 650px;
+
+    color: black;
+
+}
+
+
+
+.book{
+
+    color:#4992ca;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+}
+
+
+
+.book:hover{
+
+    background-color: rgba(107, 224, 224, 0.534);
+
+}
+
+
+
+.battle__but{
+
+    text-align: center;
+
+    padding-top: 3%;
+
+    padding-bottom: 20px;
+
+}
+
+.buy button{
+
+    background-color: #4992ca;
+
+    border: none;
+
+    color: aliceblue;
+
+    padding: 10px 80px;
+
+    font-weight: 600;
+
+    text-align: center;
+
+    cursor: pointer;
+
+}
+
+
+
+.buy button:hover{
+
+    background-color: rgba(107, 224, 224, 0.534);
+
+}
+
+
+
+/*_________KNOW MORE_________*/
+
+
+
+.know{
+
+    background-color:#424242;
+
+    text-align: center;
+
+    padding-bottom: 80px;
+
+}
+
+.know h2{
+
+    color:aliceblue;
+
+    padding-bottom: 0px;
+
+}
+
+
+
+.know__click button{
+
+    background-color: transparent;
+
+    border: 2px aliceblue solid;
+
+    color: aliceblue;
+
+    padding: 10px 20px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    width: 250px;
+
+}
+
+
+
+.know__click button:hover{
+
+    background-color: rgba(107, 224, 224, 0.534);
+
+}
+
+
+
+
+
+/*__________POKEMON CARD__________*/
+
+
+
+.pokecard{
+
+    text-align: center;
+
+    align-items: center;
+
+    background-color: aliceblue;
+
+    justify-content: space-between;
+
+    padding-bottom: 2%;
+
+}
+
+.pokecard h2{
+
+    color: #8a8a8a;
+
+}
+
+.polaroid{
+
+    width: 200px;
+
+    background-color: #ebebeb;
+
+    border: 1px solid #cacaca;
+
+    border-top: 30px #4992ca solid;
+
+    margin: auto;
+
+    text-align: center;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+
+.gre__text {
+
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: aliceblue;
+
+}
+
+
+
+.ability{
+
+    font-weight: 700;
+
+    padding-bottom: 10px;
+
+}
+
+
+
+.gre__card__name{
+
+    color: #8a8a8a;
+
+    padding: 10px;
+
+}
+
+
+
+
+
+/*__________Pokemon Trainer___________*/
+
+
+
+.poketrainer{
+
+    background-color: #4992ca;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding-top: 5% ;
+
+    padding-left: 15%;
+
+    padding-right: 15%;
+
+    padding-bottom: 2%;
+
+}
+
+
+
+.poketrainer h2{
+
+    color: aliceblue;
+
+}
+
+
+
+.poketrainer__list{
+
+    padding-left: 3%;
+
+    padding-right: 3%;
+
+    padding-top: 2%;
+
+}
+
+
+
+h6{
+
+    color:aliceblue;
+
+    font-size: 18px;
+
+    font-weight: 100;
+
+}
+
+
+
+.trainer h4{
+
+    color: aliceblue;
+
+    font-size: 30px;
+
+    padding: 0%;
+
+    font-weight: 100;
+
+}
+
+.timg{
+
+    height: 180px;
+
+    width: 170px;
+
+    border-radius: 150px;
+
+}
+
+
+
+.pokemonlogo{
+
+    height: 50px
+
+}
+
+
+
+.trainer{
+
+    display: flex;
+
+    flex: wrap;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding-left: 5px;
+
+    padding-right: 5px;
+
+    padding-top: 6%;
+
+    margin-right: 0px;
+
+    margin-left: 0px;
+
+}
+
+
+
+.trainerimg{
+
+    padding-right:2%;
+
+}
+
+
+
+.trainerinfo{
+
+    padding-right:2%;
+
+    padding-left: 0%;
+
+    text-align: center;
+
+    width: 850px;
+
+    margin-left: 0px;
+
+    margin-right: 10px;
+
+}
+
+
+
+.trainerdetail{
+
+    text-align: left;
+
+    color: aliceblue;
+
+}
+
+
+
+
+
+/*___________GENERATION CARDS____________*/
+
+
+
+
+
+.gen__card{
+
+    background-color: aliceblue;
+
+    padding-bottom: 1%;
+
+    padding-left: 10%;
+
+    padding-right: 10%;
+
+}
+
+
+
+.gen__card h2{
+
+    color: #8a8a8a;
+
+}
+
+
+
+
+
+.cards__container{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+    
+    padding-left: 10%;
+
+    padding-right: 10%;
+
+}
+
+
+
+
+
+.card{
+
+    padding-top: 10px;
+
+    width: 400px;   
+
+    background-color: #e7f1f7;
+
+    border: 1px solid #cacaca;
+
+    border-top: 15px #4992ca solid;
+
+    margin: auto;
+
+    text-align: left;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+
+.text {
+
+    text-align: left;
+
+    padding: 3%;
+
+    background-color: aliceblue;
+
+    height: 300px;
+
+    line-height: 25px;
+
+    word-spacing: 3px;
+
+    font-size: 17px;
+
+    font-weight: 350;
+
+}
+
+
+
+
+
+.card__name{
+
+    color: black;
+
+    padding-left: 3%;
+
+    text-align: left;
+
+}
+
+
+
+.card__year{
+
+    color: black;
+
+    text-align: left;
+
+    padding-left: 3%;
+
+    padding-top: 8%;
+
+    padding-bottom: 5%;
+
+}
+
+
+
+.card__box{
+
+    padding: 5px;
+
+}
+
+
+
+
+
+/*____________SUBSCRIBE____________*/
+
+
+
+
+
+/* SAME AS KNOW MORE */
+
+
+
+.know input{
+
+    padding: 1px 1px;
+
+    width: 300px;
+
+    height: 35px;
+
+    font-size: 18px;
+
+}
+
+
+
+
+
+/*____________POKEMON GAMES_____________*/
+
+
+
+
+
+.poke__games{
+
+    background-color: aliceblue;
+
+    padding-bottom: 2%;
+
+}
+
+
+
+.poke__games h2{
+    padding-bottom: 1px;
+    color: #8a8a8a;
+
+}
+
+.games__cards h6{
+    color: black;
+    font-weight: 550;
+    padding-top: 0%;
+}
+
+.games__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+
+}
+
+.games__cards p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.pokesleep__img{
+    width: 250px;
+    height: 200px;
+    
+}
+
+.pokepika__img{
+    height: 200px;
+}
+
+.pokego__img{
+    height: 200px;
+    width:250px;
+}
+
+.pokesleep{
+    padding: 2%;
+    width: 250px;
+}
+
+.pokepika{
+    padding: 2%;
+    width: 250px;
+}
+
+.pokego{
+    padding: 2%;
+    width: 250px;
+}
+
+.poke__games {
+    text-align: center;
+}
+
+.see__more__btn{
+    color: aliceblue;
+    background-color: #4992ca;
+    border: none ;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.see__more__btn:hover{
+    background-color: rgba(107, 224, 224, 0.534);
+}
+
+
+/*___________Designers___________*/
+
+
+.designers{
+    background-color: #4992ca;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    text-align: center;
+
+}
+
+.designer__card h4{
+    
+    padding-bottom: 2%;
+}
+
+
+.designer__card h6{
+    font-size: 18px;
+    padding-bottom: 4%;
+}
+
+.designer__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.designer__card p{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.designer__img{
+    width:200px;
+    height: 200px;
+    border-radius:180px;
+}
+
+.junichi{
+    width: 400px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.shigeki{
+    width: 350px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.ken{
+    width: 320px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+/*________LOGOS__________*/
+
+.logos{
+    background-color: aliceblue;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.logos h2{
+    color: #424242;
+    padding-bottom: 1%;
+}
+
+.logos h6{
+    color: #424242;
+}
+
+.logo__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo__list img{
+    width:130px
+}
+
+.logo__list{
+    padding-top: 1%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+
+/*_________WANT MORE_________*/
+
+.want__more{
+    background-color: #4992ca;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.want__more h2{
+    padding-bottom: 1.2%;
+}
+
+
+/*___________FOOTER___________*/
+
+.footer{
+    background-color: black;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.footer__col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer h6{
+    color: #424242;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom:9%;
+}
+
+.footer__col li{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(191, 193, 194);
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 7%;
+}
+
+.footer__col a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(191, 193, 194);
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 7%;
+}
+
+.footer__row{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.footer__col a:hover{
+    color: rgba(107, 224, 224, 0.534);
+}
+
+.socials{
+    filter: invert(90%);
+    height: 20px;
+    width: 20px;
+    padding-bottom:10%;
+}
